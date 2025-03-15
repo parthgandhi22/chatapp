@@ -18,7 +18,7 @@ connectdb().then(() => {
     app.use(cookieParser()); // Used for handling cookies
 
     app.use(cors({
-        origin: "http://localhost:5174",
+        origin: "https://chatapp-1-vsh9.onrender.com",
         credentials: true
     }));
 
